@@ -43,13 +43,14 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 
 <body>
     <!-- mian-content -->
-    <header class="index-banner" id="home">
+     <header class="index-banner" id="home">
         <!-- nav -->
         <nav class="main-header d-flex">
             <div id="brand">
                 <div id="word-mark">
                     <h1>
-                        <a href="index.html"><i class="fa fa-bolt" aria-hidden="true"></i></a>
+                        <img src="images/logo.png" height="100px" >
+                        <!-- <a href="logo.png"><i class="fa fa-bolt" aria-hidden="true"></i></a> -->
                     </h1>
                 </div>
             </div>
@@ -63,39 +64,42 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                 </div>
                 <ul class="text-left nav-honey">
                     <li>
-                        <a href="index.html">Home</a>
+                        <a href="index.html" class="active ">Beranda</a>
                     </li>
-                    <li>
-                        <a href="about.html">About</a>
-                    </li>
+                    <!-- <li>
+                        <a href="profile.html" >Profil</a>
+                    </li> -->
+                   
+                  <li class="nav-item dropdown">
 
-                    <li class="nav-item dropdown">
-
-                        <a class="dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-										Dropdown
-									</a>
-
+                       <a class="dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                                        aria-expanded="false">
+                                        Profil
+                                    </a>
+ 
                         <div class="dropdown-menu text-center" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="index.html">Speakers</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="index.html">Sponsors</a>
-                        </div>
+                                        <a class="dropdown-item" href="sejarah.html">Sejarah</a>
+                                        <a class="dropdown-item scroll" href="#visimisi">Visi & Misi</a>
+                                        <a class="dropdown-item" href="sejarah.html#programkerja"  >Program Kerja</a>
+                                        <a class="dropdown-item scroll" href="#speakers">Penghargaan & Prestasi</a>
+                                    </div>
 
                     </li>
-
+                   
                     <li>
-                        <a href="blog.html">News & Events</a>
+                        <a href="#pengurus">Pengurus</a>
                     </li>
                     <li>
-                        <a href="contact.html">Contact</a>
+                        <a href="contact.html">Hubungi Kami</a>
                     </li>
-                    <li class="login">
+                   <!--  <li class="login">
                         <button type="button" class="btn login-btn text-uppercase " data-toggle="modal" data-target="#exampleModalCenter">
                           Login
                         </button>
-                    </li>
+                    </li> -->
                 </ul>
             </div>
+
             <div class="clearfix"></div>
         </nav>
         <!-- //nav -->
