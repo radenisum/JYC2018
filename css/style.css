@@ -267,7 +267,7 @@ nav.navShadow .nav-honey li a {
 .banner-top1,
 .banner-top2,
 .banner-top3 {
-    background: url(../images/header1.png) no-repeat 0px 0px;
+    background: url(../images/bg1.jpg) no-repeat 0px 0px;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -277,15 +277,15 @@ nav.navShadow .nav-honey li a {
 }
 
 .banner-top1 {
-    background: url(../images/header2.png) no-repeat 0px 0px;
+    background: url(../images/bg2.jpg) no-repeat 0px 0px;
 }
 
 .banner-top2 {
-    background: url(../images/header3.jpg) no-repeat 0px 0px;
+    background: url(../images/bg4.jpg) no-repeat 0px 0px;
 }
 
 .banner-top3 {
-    background: url(../images/header4.jpg) no-repeat 0px 0px;
+    background: url(../images/bg5.jpg) no-repeat 0px 0px;
 }
 
 .banner-info-w3layouts {
